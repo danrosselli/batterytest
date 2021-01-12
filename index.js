@@ -1,7 +1,7 @@
 var express = require('express');
-var app = express();
 var level = require('level');
 //var socketIO require('socket.io');
+var app = express();
 
 var SerialPort = require('serialport');
 
@@ -39,6 +39,6 @@ port.on('data', function (data) {
     if (err) return console.log('Ooops!', err);
   });
 
-  console.log(str);
+  console.log(strData);
 
 })
