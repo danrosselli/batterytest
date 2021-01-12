@@ -1,5 +1,7 @@
 var express = require('express');
 var app = express();
+var SerialPort = require('serialport');
+
 
 app.use(express.static(__dirname + '/'));
 
