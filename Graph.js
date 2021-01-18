@@ -26,13 +26,6 @@ export class Graph extends Component {
             borderColor: '#f050a0',
             fill: false,
           },
-          {
-            label: 'Amps',
-            data: [],
-            backgroundColor: '#f030f010',
-            borderColor: '#40b060',
-            fill: false,
-          },
         ]
       },
       options: {
