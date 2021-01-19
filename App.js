@@ -7,7 +7,7 @@ import { Graph } from './Graph.js';
 function App() {
   // Fragments doesn't exist anymore :)
   return html`
-    <${Header} title="Battery Tester"></${Header}>
+    <${Header} title="Battery Charge-Discharge"></${Header}>
     <${Graph} />
   `
 }
